@@ -32,7 +32,7 @@ Route::controller(AuthenticationController::class)->prefix('v1')->group(function
 // });
 
 
-Route::prefix('v1')->group(function () {
+Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
     Route::get('users', [UsersController::class, 'index']);
     Route::get('users/{id?}', [UsersController::class, 'show']);
     Route::post('users/create', [UsersController::class, 'store']);
