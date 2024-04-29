@@ -6,22 +6,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 
-Landing Page
-Login Page
-Register Page
-Profile Page 
-Contacts Page
+-Landing Page
+-Login Page
+-Register Page
+-Profile Page 
+-Contacts Page
 
 
 ## App Structure
-	API calls for
+-	API calls for
       User Registration
 	  User Login
 	  Profile Update
 	  Profile Delete 
 	Origin: src > actions > userActions.js
 	
-	API Calls to 
+-	API Calls to 
       Fetch All Users is made from
 	Origin: src > actions > communityActions.js
 	  
@@ -29,12 +29,12 @@ Contacts Page
 
 
 ```bash
-Built with
+Stack
 
-    React JS
-	Redux
-	CSS
-    React Bootstrap
+    -React JS
+    -Redux
+    -CSS
+    -React Bootstrap
 ```
 
 
