@@ -6,7 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 ```bash
-Stack
 -Landing Page
 -Login Page
 -Register Page
@@ -17,7 +16,7 @@ Stack
 
 ## App Structure
 ```bash
-Stack
+
 -	API calls for
           -User Registration
 	  -User Login
