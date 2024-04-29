@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Community from "./Screens/Community/Community";
+import LandingPage from "./Screens/LandingPage/LandingPage";
+import LoginScreen from "./Screens/LoginScreen/LoginScreen";
+import ProfileScreen from "./Screens/ProfileScreen/ProfileScreen";
+import RegisterScreen from "./Screens/RegisterScreen/RegisterScreen";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Header />
+    <main>
+      <Routes>
+        <Route path="/" Component={LandingPage} exact />
+        <Route path="/login" Component={LoginScreen} />
+        <Route path="/profile" Component={ProfileScreen} />
+        <Route path="/register" Component={RegisterScreen} />
+        <Route path="/community" Component={() => <Community />} />
+      </Routes>
+    </main>
+
+    <Footer />
+  </BrowserRouter>
+);
 
 export default App;
