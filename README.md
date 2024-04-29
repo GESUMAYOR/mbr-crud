@@ -1,7 +1,7 @@
 # MBR Assessment
 
 ```bash
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).t
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 ```
 
 ## Features
