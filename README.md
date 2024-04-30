@@ -44,7 +44,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Usage
 
 ```python
-Use npm init to get dependencies and 
+Use npm install to get dependencies and 
 npm start to run the app locally
 
 ```
